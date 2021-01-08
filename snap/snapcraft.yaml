@@ -1,0 +1,14 @@
+name: microk8s-integrator-macos
+base: core20
+version: '0.1'
+summary: MicroK8s MacOS integrator
+description: |
+  Provides intregrations between MicroK8s VM and MacOS
+  host OS.
+
+grade: stable
+confinement: strict
+
+parts:
+  integrator:
+    plugin: nil
